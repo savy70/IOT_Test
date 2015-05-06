@@ -1,0 +1,5 @@
+cc=gcc
+CFFLAGS= -I -wall
+EXE_NAME0APP
+all: main.c some.c
+	$(CC) -o $(EXE_NAME) main.o some.o $(CFLAGS)
